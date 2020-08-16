@@ -1,0 +1,192 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+.modal-dialog-centered {
+  overflow-x: auto;
+  max-width: 900px;}
+@media (min-width: 768px) {
+   .modal-lg {
+    width: 100%;
+  } 
+}
+.tbody{
+  padding: 15px;
+}
+.table th  {
+  border: 1px solid #2980B9;
+}
+.table-responsive{
+  margin-top: 50px;
+  
+}
+.fa-trash-o{
+  color: red;
+  font-size: 20px;
+}
+.color
+{
+  color: #0000FF;
+}
+@media (min-width: 992px) {
+  .modal-dialog-centered {
+    width: 900px;
+  }
+}
+.pagination {
+  margin-top: 25px;
+}
+.pagination span {
+  background-color: #0000FF;
+cursor: pointer;
+color: white;
+float: left;
+padding: 8px 16px;
+text-decoration: none;
+transition: background-color .3s;
+border: 1px solid #ddd;
+}
+
+.pagination span.active {
+background-color: #0099FF;
+color: white;
+border: 1px solid #0099FF;
+}
+.colspan
+{
+  text-align: center;
+  font-size: 20px;
+}
+.modal-content
+{
+  border-radius: 1em;
+
+}
+.buttons
+{
+  margin-top: 2%;
+  float: right;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+#color
+{
+  font-size:48px;
+  color:#F87100;
+}
+body
+{
+  background-color: #B8BAB7;
+}
+.btn-primary, .btn-default, .btn-success, .btn-info, .btn-warning, .btn-danger
+{
+  border-radius: 30px;
+
+}
+.greater
+{
+  align-content: center;
+}
+#submit, #cancel
+{
+  float: left;
+}
+.modal-header
+{
+  background-color: #286090;
+  color: white;
+}
+.row
+{
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+
+table {
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
+}
+.close
+{
+  color: #000;
+}
+.pull-left
+{ 
+  margin-top: 20px;
+}
+.btn{
+  margin-top: 20px;
+  margin-left: 20px !important;
+}
+.found
+{
+  color: red;
+  text-align: center;
+}
+h1{
+  color: #286090;
+}
+.fa-edit
+{
+  color:blue;
+}
+.nodata
+{
+  text-align: center;
+  color: red;
+}
+.fa-trash
+{
+  font-size:18px;
+  color:red;
+}
+th
+{
+  color: #fff;
+  border:  2px solid #fff ;
+  padding: 15px;
+  background-color: #0000ff;
+}
+table ,td{
+  border: 1px solid #0000ff;
+  color: #0000ff;
+  border-collapse: collapse;
+  padding: 15px;
+  font-size: 15px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
